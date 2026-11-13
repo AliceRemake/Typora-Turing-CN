@@ -64,9 +64,18 @@ th,
      text-decoration: underline;
 }
 
+<<<<<<< HEAD
 blockquote,
 strong {
      color: #00ffff
+=======
+blockquote {
+     color: #a8b8cc;
+}
+
+strong {
+     color: #dbe6f5;
+>>>>>>> 317aac2f7694fa6674bf2f19b0445d68ba376c15
 }
 
 blockquote {
@@ -74,9 +83,36 @@ blockquote {
      margin-right: 30px
 }
 
+<<<<<<< HEAD
 a,
 .footnote-line {
      color: #363B40;
+=======
+a {
+     color: #8ab4f8;
+     text-decoration: underline;
+     text-decoration-color: rgba(138, 180, 248, 0.35);
+     text-decoration-thickness: 1px;
+     text-underline-offset: 2px;
+}
+
+a:hover {
+     color: #a9c8ff;
+     text-decoration-color: currentColor;
+}
+
+a:visited {
+     color: #7f9fd6;
+     text-decoration-color: rgba(127, 159, 214, 0.40);
+}
+
+.footnote-line {
+     color: #8ab4f8;
+}
+
+.footnote-line:hover {
+     color: #a9c8ff;
+>>>>>>> 317aac2f7694fa6674bf2f19b0445d68ba376c15
 }
 
 em,
@@ -89,22 +125,66 @@ ul {
 }
 
 #write {
+<<<<<<< HEAD
      max-width: 60em
 }
 
 #footer p {
      border-top: 2px solid #363B40;
+=======
+     max-width: 60em;
+     font-family: "Monofur Nerd Font Mono",
+                  "Zhuque Fangsong (technical preview)",
+                  "朱雀仿宋（预览测试版）",
+                  "LXGW Wenkai Mono GB Light",
+                  "霞鹜文楷等宽 GB Light",
+                  monospace;
+}
+
+/* Fonts: 拉丁 = Monofur Nerd Font Mono，中文 = Zhuque Fangsong (tech preview) */
+:root {
+     --monospace: "Monofur Nerd Font Mono", "Zhuque Fangsong (technical preview)",
+                  "朱雀仿宋（预览测试版）", monospace;
+}
+
+code,
+tt,
+kbd,
+pre,
+.md-fences,
+.md-fences .CodeMirror,
+.cm-s-inner,
+.cm-s-inner *,
+#typora-source .CodeMirror,
+#typora-source .CodeMirror-lines {
+     font-family: "Monofur Nerd Font Mono",
+                  "Zhuque Fangsong (technical preview)",
+                  "朱雀仿宋（预览测试版）",
+                  monospace;
+}
+
+#footer p {
+     border-top: 2px solid #fbfbfb;
+>>>>>>> 317aac2f7694fa6674bf2f19b0445d68ba376c15
      margin-top: 10px;
 }
 
 /* Codes */
 .cm-s-inner {
+<<<<<<< HEAD
      border-left: 2px solid #363B40;
+=======
+     border-left: 2px solid #fbfbfb;
+>>>>>>> 317aac2f7694fa6674bf2f19b0445d68ba376c15
      padding-left: 1em
 }
 
 .cm-s-inner * {
+<<<<<<< HEAD
      color: #363B40 !important
+=======
+     color: #fbfbfb !important
+>>>>>>> 317aac2f7694fa6674bf2f19b0445d68ba376c15
 }
 
 /* Numbering */
@@ -151,4 +231,8 @@ h5 {
 #write h6:before {
      counter-increment: h6;
      content: counter(h2) "." counter(h3) "." counter(h4) "." counter(h5) "." counter(6) ". "
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 317aac2f7694fa6674bf2f19b0445d68ba376c15

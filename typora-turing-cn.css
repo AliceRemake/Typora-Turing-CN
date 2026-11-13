@@ -5,7 +5,11 @@
 body {
      background-color: #fbfbfb;
      color: #333;
+<<<<<<< HEAD
      font-family: 'Monofur Nerd Font Mono', '仿宋', monospace;
+=======
+     font-family: 'LXGW Wenkai Mono Light', monospace;
+>>>>>>> 317aac2f7694fa6674bf2f19b0445d68ba376c15
      text-decoration-skip: none;
      text-align: justify;
 }
